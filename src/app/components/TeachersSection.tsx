@@ -4,12 +4,12 @@ const teachers = [
   {
     name: "Anjali Mehta",
     style: "Hatha & Yin Yoga",
-    image: "/teacher1.jpg",
+    image: "/female.jpg",
   },
   {
     name: "Ravi Sharma",
     style: "Power & Vinyasa Flow",
-    image: "/teacher2.jpg",
+    image: "/male.jpg",
   },
 ];
 
