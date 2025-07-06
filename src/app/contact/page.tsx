@@ -12,7 +12,7 @@ export default function ContactPage() {
         <div className="max-w-4xl mx-auto text-center mb-12">
           <h1 className="text-4xl font-bold mb-4">Contact Us</h1>
           <p className="text-gray-600 text-lg">
-            We'd love to hear from you! Reach out with any questions or to book a class.
+            We&apos;d love to hear from you! Reach out with any questions or to book a class.
           </p>
         </div>
 
@@ -20,7 +20,9 @@ export default function ContactPage() {
           {/* Contact Details */}
           <div className="text-left space-y-4">
             <h2 className="text-xl font-semibold">Studio Address</h2>
-            <p className="text-gray-700">123 Yoga Lane, Peace City, Bliss State 56789</p>
+            <p className="text-gray-700">
+              123 Yoga Lane, Peace City, Bliss State 56789
+            </p>
 
             <h2 className="text-xl font-semibold">Phone</h2>
             <p className="text-gray-700">+91 98765 43210</p>
@@ -32,7 +34,12 @@ export default function ContactPage() {
           {/* Contact Form */}
           <form className="space-y-6" onSubmit={(e) => e.preventDefault()}>
             <div>
-              <label htmlFor="name" className="block text-sm font-medium text-gray-700">Name</label>
+              <label
+                htmlFor="name"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Name
+              </label>
               <input
                 type="text"
                 id="name"
@@ -42,7 +49,12 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700">Email</label>
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Email
+              </label>
               <input
                 type="email"
                 id="email"
@@ -52,7 +64,12 @@ export default function ContactPage() {
             </div>
 
             <div>
-              <label htmlFor="message" className="block text-sm font-medium text-gray-700">Message</label>
+              <label
+                htmlFor="message"
+                className="block text-sm font-medium text-gray-700"
+              >
+                Message
+              </label>
               <textarea
                 id="message"
                 rows={4}

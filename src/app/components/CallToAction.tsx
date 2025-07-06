@@ -5,7 +5,7 @@ export default function CallToAction() {
     <section className="bg-green-600 text-white py-20 px-6 text-center">
       <h2 className="text-3xl md:text-4xl font-bold mb-4">Start Your Journey Today</h2>
       <p className="text-lg mb-8">
-        Whether you're a beginner or seasoned yogi, we have a space just for you.
+        Whether you&apos;re a beginner or seasoned yogi, we have a space just for you.
       </p>
       <a
         href="/contact"
